@@ -1,0 +1,107 @@
+.outer {
+    display: table;
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-top: 20px; 
+    width: 100%;
+  }
+
+  .calendar{
+    cursor: default;
+  }
+
+  .middle {    
+    display: table-cell;
+    vertical-align: middle;
+  }
+
+  .inner{
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;       
+  }
+
+  .table{
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+  }
+
+  .infobox{
+    display: flex;
+    position: relative;
+    justify-content: center; /* align horizontal */
+    align-items: center; /* align verticaly */
+    background: #A9A9A9;    
+    height: 45px;
+    color: white;
+  }
+
+  .table td{
+    display: table-cell;      
+    border: 0.1px solid grey;
+    font-size: 17px;
+    width: 15px;      
+    color: #484848;
+    padding: 10px;
+    margin: 0px;
+    text-align: center;      
+  }
+
+  .table th{
+    color: #989898;     
+    text-align: center;
+    font-size: 15px;
+  }
+
+  .month{    
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Tangerine', cursive;    
+  }
+
+  .date{
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Tangerine', cursive; 
+  }
+
+  .cell{
+    background:	#A9A9A9;
+    color: #383838;
+  }
+
+  .cell:hover{
+    background:#BEBEBE;
+  }
+
+  .cell.out{
+    background:	#F5F5F5	;
+    color: #787878;
+  }
+
+  .cell.active{
+    background: #34b7aa;
+    color: white;
+  }
+
+  .next{
+    display: flex;
+    height: 100%;
+    width: 30px;
+    position: absolute;
+    right: 15px;
+    justify-content: center; 
+    align-items: center; 
+  }
+  
+  .previous{
+    display: flex;
+    height: 100%;
+    width: 30px;
+    position: absolute;
+    left: 15px;
+    justify-content: center; 
+    align-items: center; 
+  }
